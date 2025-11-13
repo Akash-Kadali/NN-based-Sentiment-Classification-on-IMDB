@@ -1,0 +1,21 @@
+Model,Activation,Optimizer,Seq Length,Grad Clipping,Accuracy,F1,Epoch Time (s),Seed,CPU,RAM(GB),RunID
+LSTM,Tanh,ADAM,50,0,0.5,0.3333,0.88,42,x86_64,12.67,lstm_tanh_adam_L50_gc0_seed42
+LSTM,Tanh,ADAM,100,0,0.5,0.3333,0.99,42,x86_64,12.67,lstm_tanh_adam_L100_gc0_seed42
+LSTM,Tanh,ADAM,200,0,0.5,0.3333,1.75,42,x86_64,12.67,lstm_tanh_adam_L200_gc0_seed42
+RNN,Tanh,ADAM,200,0,0.5,0.3333,1.56,42,x86_64,12.67,rnn_tanh_adam_L200_gc0_seed42
+LSTM,Tanh,ADAM,200,0,0.5,0.3333,1.75,42,x86_64,12.67,lstm_tanh_adam_L200_gc0_seed42
+BILSTM,Tanh,ADAM,200,0,0.5,0.3333,2.76,42,x86_64,12.67,bilstm_tanh_adam_L200_gc0_seed42
+BILSTM,Tanh,ADAM,200,0,0.5,0.3333,2.74,42,x86_64,12.67,bilstm_tanh_adam_L200_gc0_seed42
+BILSTM,Tanh,ADAMW,200,0,0.8409,0.8407,2.72,42,x86_64,12.67,bilstm_tanh_adamw_L200_gc0_seed42
+BILSTM,Tanh,SGD,200,0,0.5088,0.4107,2.71,42,x86_64,12.67,bilstm_tanh_sgd_L200_gc0_seed42
+BILSTM,Tanh,RMSPROP,200,0,0.5,0.3333,2.69,42,x86_64,12.67,bilstm_tanh_rmsprop_L200_gc0_seed42
+BILSTM,Tanh,ADAMW,200,0,0.8409,0.8407,2.72,42,x86_64,12.67,bilstm_tanh_adamw_L200_gc0_seed42
+BILSTM,Relu,ADAMW,200,0,0.8368,0.8368,2.75,42,x86_64,12.67,bilstm_relu_adamw_L200_gc0_seed42
+BILSTM,Sigmoid,ADAMW,200,0,0.8216,0.8204,2.72,42,x86_64,12.67,bilstm_sigmoid_adamw_L200_gc0_seed42
+BILSTM,Tanh,ADAMW,200,0,0.8409,0.8407,2.7,42,x86_64,12.67,bilstm_tanh_adamw_L200_gc0_seed42
+BILSTM,Tanh,ADAMW,200,1,0.828,0.8271,2.71,42,x86_64,12.67,bilstm_tanh_adamw_L200_gc1_seed42
+BILSTM,Tanh,ADAMW,200,1,0.8346,0.8345,2.72,0,x86_64,12.67,bilstm_tanh_adamw_L200_gc1_seed0
+BILSTM,Tanh,ADAMW,200,1,0.8378,0.8378,2.71,1,x86_64,12.67,bilstm_tanh_adamw_L200_gc1_seed1
+BILSTM,Tanh,ADAMW,200,1,0.8315,0.8306,2.68,2,x86_64,12.67,bilstm_tanh_adamw_L200_gc1_seed2
+BILSTM,Tanh,ADAMW,200,1,0.836,0.8358,2.23,42,x86_64,12.67,bilstm_tanh_adamw_L200_gc1_seed42
+BILSTM,Tanh,ADAMW,200,1,0.827,0.8265,5.08,42,x86_64,12.67,bilstm_tanh_adamw_L200_gc1_seed42
