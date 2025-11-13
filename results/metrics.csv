@@ -1,0 +1,13 @@
+LSTM,Tanh,ADAM,50,0,0.7519,0.7517,123.68,42,"Intel64 Family 6 Model 170 Stepping 4, GenuineIntel",15.5,lstm_tanh_adam_L50_gc0_seed42
+RNN,Tanh,ADAM,50,0,0.5379,0.529,58.82,42,"Intel64 Family 6 Model 170 Stepping 4, GenuineIntel",15.5,rnn_tanh_adam_L50_gc0_seed42
+LSTM,Tanh,ADAM,50,0,0.7368,0.7366,109.66,42,"Intel64 Family 6 Model 170 Stepping 4, GenuineIntel",15.5,lstm_tanh_adam_L50_gc0_seed42
+BILSTM,Tanh,ADAM,50,0,0.7326,0.7318,199.36,42,"Intel64 Family 6 Model 170 Stepping 4, GenuineIntel",15.5,bilstm_tanh_adam_L50_gc0_seed42
+LSTM,Sigmoid,ADAM,50,0,0.7524,0.7522,93.96,42,"Intel64 Family 6 Model 170 Stepping 4, GenuineIntel",15.5,lstm_sigmoid_adam_L50_gc0_seed42
+LSTM,Relu,ADAM,50,0,0.7357,0.7351,136.78,42,"Intel64 Family 6 Model 170 Stepping 4, GenuineIntel",15.5,lstm_relu_adam_L50_gc0_seed42
+LSTM,Tanh,ADAM,50,0,0.7368,0.7366,115.78,42,"Intel64 Family 6 Model 170 Stepping 4, GenuineIntel",15.5,lstm_tanh_adam_L50_gc0_seed42
+LSTM,Tanh,ADAM,50,0,0.7368,0.7366,82.44,42,"Intel64 Family 6 Model 170 Stepping 4, GenuineIntel",15.5,lstm_tanh_adam_L50_gc0_seed42
+LSTM,Tanh,ADAMW,50,0,0.7368,0.7366,92.35,42,"Intel64 Family 6 Model 170 Stepping 4, GenuineIntel",15.5,lstm_tanh_adamw_L50_gc0_seed42
+LSTM,Tanh,SGD,50,0,0.5,0.3337,116.59,42,"Intel64 Family 6 Model 170 Stepping 4, GenuineIntel",15.5,lstm_tanh_sgd_L50_gc0_seed42
+LSTM,Tanh,RMSPROP,50,0,0.7301,0.7294,108.68,42,"Intel64 Family 6 Model 170 Stepping 4, GenuineIntel",15.5,lstm_tanh_rmsprop_L50_gc0_seed42
+LSTM,Tanh,ADAM,50,0,0.7368,0.7366,108.83,42,"Intel64 Family 6 Model 170 Stepping 4, GenuineIntel",15.5,lstm_tanh_adam_L50_gc0_seed42
+LSTM,Tanh,ADAM,100,0,0.8002,0.8002,221.31,42,"Intel64 Family 6 Model 170 Stepping 4, GenuineIntel",15.5,lstm_tanh_adam_L100_gc0_seed42
